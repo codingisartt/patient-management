@@ -1,5 +1,5 @@
-### GET request to example server
-POST https://localhost:4000/patients
+### Creates a new patient entity
+POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
@@ -9,5 +9,4 @@ Content-Type: application/json
   "dateOfBirth": "1995-05-09",
   "registeredDate": "2024-11-28"
 }
-
 ###
